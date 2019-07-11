@@ -183,11 +183,11 @@
 								<span class="nav-link-text" data-i18n="nav.ui_components_list_filter">List Filter</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="ui_modal.html" title="Modal" data-filter-tags="ui components modal">
+						<nuxt-link tag="li" :to="{ name: 'ui-modal' }">
+							<a title="Modal" data-filter-tags="ui components modal">
 								<span class="nav-link-text" data-i18n="nav.ui_components_modal">Modal</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="ui_navbars.html" title="Navbars" data-filter-tags="ui components navbars">
 								<span class="nav-link-text" data-i18n="nav.ui_components_navbars">Navbars</span>
