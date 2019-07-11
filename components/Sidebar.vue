@@ -173,11 +173,11 @@
 								<span class="nav-link-text" data-i18n="nav.ui_components_collapse">Collapse</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="ui_dropdowns.html" title="Dropdowns" data-filter-tags="ui components dropdowns">
+						<nuxt-link tag="li" :to="{ name: 'ui-dropdowns' }">
+							<a title="Dropdowns" data-filter-tags="ui components dropdowns">
 								<span class="nav-link-text" data-i18n="nav.ui_components_dropdowns">Dropdowns</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="ui_list_filter.html" title="List Filter" data-filter-tags="ui components list filter">
 								<span class="nav-link-text" data-i18n="nav.ui_components_list_filter">List Filter</span>
