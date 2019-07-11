@@ -153,11 +153,11 @@
 								<span class="nav-link-text" data-i18n="nav.ui_components_buttons">Buttons</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="ui_button_group.html" title="Button Group" data-filter-tags="ui components button group">
+						<nuxt-link tag="li" :to="{ name: 'ui-button_group' }">
+							<a title="Button Group" data-filter-tags="ui components button group">
 								<span class="nav-link-text" data-i18n="nav.ui_components_button_group">Button Group</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="ui_cards.html" title="Cards" data-filter-tags="ui components cards">
 								<span class="nav-link-text" data-i18n="nav.ui_components_cards">Cards</span>
