@@ -238,6 +238,7 @@
 	export default {
 		name: "collapse",
 		head: {
+			titleTemplate: 'Collapse | %s',
 			link: [
 				{ rel: 'stylesheet', media: 'screen, print', href: '/assets/css/theme-demo.css' },
 			]

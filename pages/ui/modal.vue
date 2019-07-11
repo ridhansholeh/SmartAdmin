@@ -1094,6 +1094,7 @@
 	export default {
 		name: "modal",
 		head: {
+			titleTemplate: 'Modal | %s',
 			link: [
 				{ rel: 'stylesheet', media: 'screen, print', href: '/assets/css/theme-demo.css' },
 			]

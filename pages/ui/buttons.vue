@@ -1039,7 +1039,10 @@
 
 <script>
 	export default {
-		name: "buttons"
+		name: "buttons",
+		head: {
+			titleTemplate: 'Buttons | %s',
+		}
 	}
 </script>
 

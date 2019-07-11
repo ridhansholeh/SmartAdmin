@@ -488,6 +488,7 @@
 	export default {
 		name: "alerts",
 		head: {
+			titleTemplate: 'Alerts | %s',
 			link: [
 				{ rel: 'stylesheet', media: 'screen, print', href: '/assets/css/theme-demo.css' },
 			]

@@ -1104,6 +1104,7 @@
 	export default {
 		name: "dropdowns",
 		head: {
+			titleTemplate: 'Dropdowns | %s',
 			link: [
 				{ rel: 'stylesheet', media: 'screen, print', href: '/assets/css/theme-demo.css' },
 			]

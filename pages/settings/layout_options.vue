@@ -705,6 +705,7 @@
 	export default {
 		name: "layout_options",
 		head: {
+			titleTemplate: 'Layout Options | %s',
 			link: [
 				{ rel: 'stylesheet', media: 'screen, print', href: '/assets/css/theme-demo.css' },
 			]

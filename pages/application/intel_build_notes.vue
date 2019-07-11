@@ -254,7 +254,10 @@
 
 <script>
 	export default {
-		name: "intel_build_notes"
+		name: "intel_build_notes",
+		head: {
+			titleTemplate: 'Build Notes | %s',
+		}
 	}
 </script>
 

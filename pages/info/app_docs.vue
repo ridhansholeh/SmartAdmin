@@ -408,9 +408,7 @@
 	export default {
 		name: "app_docs",
 		head: {
-			link: [
-				// { rel: 'stylesheet', media: 'screen, print', href: '/assets/css/miscellaneous/reactions/reactions.css' },
-			],
+			titleTemplate: 'Documentation | %s',
 			script: [
 				{ src: '/assets/js/app_docs.js', type: 'text/javascript', body: true },
 			]

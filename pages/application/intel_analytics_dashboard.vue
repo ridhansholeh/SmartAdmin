@@ -450,6 +450,7 @@
 	export default {
 		name: "intel_analytics_dashboard",
 		head: {
+			titleTemplate: 'Analytics Dashboard | %s',
 			link: [
 				{ rel: 'stylesheet', media: 'screen, print', href: '/assets/css/miscellaneous/reactions/reactions.css' },
 				{ rel: 'stylesheet', media: 'screen, print', href: '/assets/css/miscellaneous/fullcalendar/fullcalendar.bundle.css' },

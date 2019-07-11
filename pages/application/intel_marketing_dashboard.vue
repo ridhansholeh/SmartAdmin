@@ -1248,6 +1248,7 @@
 	export default {
 		name: "intel_marketing_dashboard",
 		head: {
+			titleTemplate: 'Marketing Dashboard | %s',
 			link: [
 				{ rel: 'stylesheet', media: 'screen, print', href: '/assets/css/datagrid/datatables/datatables.bundle.css' },
 			],

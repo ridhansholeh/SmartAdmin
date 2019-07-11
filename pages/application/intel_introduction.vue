@@ -108,7 +108,10 @@
 
 <script>
 	export default {
-		name: "intel_introduction"
+		name: "intel_introduction",
+		head: {
+			titleTemplate: 'Introduction | %s',
+		}
 	}
 </script>
 

@@ -32,7 +32,10 @@
 
 <script>
 	export default {
-		name: "intel_privacy"
+		name: "intel_privacy",
+		head: {
+			titleTemplate: 'Privacy | %s',
+		}
 	}
 </script>
 

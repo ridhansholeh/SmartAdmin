@@ -505,7 +505,10 @@
 
 <script>
 	export default {
-		name: "badges"
+		name: "badges",
+		head: {
+			titleTemplate: 'Badges | %s',
+		}
 	}
 </script>
 

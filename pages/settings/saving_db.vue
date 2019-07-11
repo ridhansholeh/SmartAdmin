@@ -96,6 +96,7 @@
 	export default {
 		name: "saving_db",
 		head: {
+			titleTemplate: 'Saving to Database | %s',
 			link: [
 				{ rel: 'stylesheet', media: 'screen, print', href: '/assets/css/theme-demo.css' },
 			],

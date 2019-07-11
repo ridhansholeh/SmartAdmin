@@ -275,6 +275,7 @@
 	export default {
 		name: "button_group",
 		head: {
+			titleTemplate: 'Button Group | %s',
 			link: [
 				{ rel: 'stylesheet', media: 'screen, print', href: '/assets/css/theme-demo.css' },
 			]

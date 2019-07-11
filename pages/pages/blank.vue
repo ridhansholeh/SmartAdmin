@@ -69,6 +69,7 @@
 	export default {
 		name: "blank",
 		head: {
+			titleTemplate: 'Blank Pages | %s',
 			link: [
 				// { rel: 'stylesheet', media: 'screen, print', href: '/assets/css/miscellaneous/reactions/reactions.css' },
 			],

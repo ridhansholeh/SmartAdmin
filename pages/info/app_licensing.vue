@@ -179,12 +179,7 @@
 	export default {
 		name: "app_licensing",
 		head: {
-			link: [
-				// { rel: 'stylesheet', media: 'screen, print', href: '/assets/css/miscellaneous/reactions/reactions.css' },
-			],
-			script: [
-				// { src: '/assets/js/smartPanel.js', type: 'text/javascript', body: true },
-			]
+			titleTemplate: 'App & Plugin Licensing | %s',
 		}
 	}
 </script>

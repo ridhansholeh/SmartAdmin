@@ -268,7 +268,10 @@
 
 <script>
 	export default {
-		name: "app_flavors"
+		name: "app_flavors",
+		head: {
+			titleTemplate: 'Different Flavors | %s',
+		}
 	}
 </script>
 

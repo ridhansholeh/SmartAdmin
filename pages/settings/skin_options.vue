@@ -118,6 +118,7 @@
 	export default {
 		name: "skin_options",
 		head: {
+			titleTemplate: 'Skin Options | %s',
 			link: [
 				{ rel: 'stylesheet', media: 'screen, print', href: '/assets/css/theme-demo.css' },
 			]

@@ -181,6 +181,7 @@
 	export default {
 		name: "how_it_works",
 		head: {
+			titleTemplate: 'How it works | %s',
 			link: [
 				{ rel: 'stylesheet', media: 'screen, print', href: '/assets/css/theme-demo.css' },
 			]

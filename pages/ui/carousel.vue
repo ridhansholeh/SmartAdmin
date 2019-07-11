@@ -425,6 +425,7 @@
 	export default {
 		name: "carousel",
 		head: {
+			titleTemplate: 'Carousel | %s',
 			link: [
 				{ rel: 'stylesheet', media: 'screen, print', href: '/assets/css/theme-demo.css' },
 			],

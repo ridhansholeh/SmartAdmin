@@ -555,7 +555,10 @@
 
 <script>
 	export default {
-		name: "breadcrumbs"
+		name: "breadcrumbs",
+		head: {
+			titleTemplate: 'Breadcrumbs | %s',
+		}
 	}
 </script>
 

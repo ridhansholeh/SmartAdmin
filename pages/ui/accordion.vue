@@ -591,6 +591,7 @@
 	export default {
 		name: "accordion",
 		head: {
+			titleTemplate: 'Accordion | %s',
 			link: [
 				{ rel: 'stylesheet', media: 'screen, print', href: '/assets/css/theme-demo.css' },
 			]

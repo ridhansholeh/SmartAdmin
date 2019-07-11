@@ -650,6 +650,7 @@
 	export default {
 		name: "cards",
 		head: {
+			titleTemplate: 'Cards | %s',
 			script: [
 				{ src: '/assets/js/ui_cards.js', type: 'text/javascript', body: true },
 			]
