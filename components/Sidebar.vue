@@ -138,11 +138,11 @@
 								<span class="nav-link-text" data-i18n="nav.ui_components_accordions">Accordions</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="ui_badges.html" title="Badges" data-filter-tags="ui components badges">
+						<nuxt-link tag="li" :to="{ name: 'ui-badges' }">
+							<a title="Badges" data-filter-tags="ui components badges">
 								<span class="nav-link-text" data-i18n="nav.ui_components_badges">Badges</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="ui_breadcrumbs.html" title="Breadcrumbs" data-filter-tags="ui components breadcrumbs">
 								<span class="nav-link-text" data-i18n="nav.ui_components_breadcrumbs">Breadcrumbs</span>
