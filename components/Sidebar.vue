@@ -178,11 +178,11 @@
 								<span class="nav-link-text" data-i18n="nav.ui_components_dropdowns">Dropdowns</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="ui_list_filter.html" title="List Filter" data-filter-tags="ui components list filter">
+						<nuxt-link tag="li" :to="{ name: 'ui-list_filter' }">
+							<a title="List Filter" data-filter-tags="ui components list filter">
 								<span class="nav-link-text" data-i18n="nav.ui_components_list_filter">List Filter</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="ui_modal.html" title="Modal" data-filter-tags="ui components modal">
 								<span class="nav-link-text" data-i18n="nav.ui_components_modal">Modal</span>
