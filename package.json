@@ -1,0 +1,20 @@
+{
+  "name": "SmartAdmin",
+  "version": "1.0.0",
+  "description": "Smart Admin 4.0.1",
+  "author": "Ridhan Sholeh",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
