@@ -133,11 +133,11 @@
 								<span class="nav-link-text" data-i18n="nav.ui_components_alerts">Alerts</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="ui_accordion.html" title="Accordions" data-filter-tags="ui components accordions">
+						<nuxt-link tag="li" :to="{ name: 'ui-accordion' }">
+							<a title="Accordions" data-filter-tags="ui components accordions">
 								<span class="nav-link-text" data-i18n="nav.ui_components_accordions">Accordions</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="ui_badges.html" title="Badges" data-filter-tags="ui components badges">
 								<span class="nav-link-text" data-i18n="nav.ui_components_badges">Badges</span>
