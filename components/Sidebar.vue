@@ -122,17 +122,17 @@
 					</ul>
 				</li>
 				<li class="nav-title">Tools & Components</li>
-				<li>
+				<li :class="{ 'active open': (routeParent(this.$route.name) === 'ui') }">
 					<a href="#" title="UI Components" data-filter-tags="ui components">
 						<i class="fal fa-window"></i>
 						<span class="nav-link-text" data-i18n="nav.ui_components">UI Components</span>
 					</a>
 					<ul>
-						<li>
-							<a href="ui_alerts.html" title="Alerts" data-filter-tags="ui components alerts">
+						<nuxt-link tag="li" :to="{ name: 'ui-alerts' }">
+							<a title="Alerts" data-filter-tags="ui components alerts">
 								<span class="nav-link-text" data-i18n="nav.ui_components_alerts">Alerts</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="ui_accordion.html" title="Accordions" data-filter-tags="ui components accordions">
 								<span class="nav-link-text" data-i18n="nav.ui_components_accordions">Accordions</span>
