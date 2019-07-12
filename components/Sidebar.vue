@@ -203,11 +203,11 @@
 								<span class="nav-link-text" data-i18n="nav.ui_components_pagination">Pagination</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="ui_popovers.html" title="Popovers" data-filter-tags="ui components popovers">
+						<nuxt-link tag="li" :to="{ name: 'ui-popovers' }">
+							<a title="Popovers" data-filter-tags="ui components popovers">
 								<span class="nav-link-text" data-i18n="nav.ui_components_popovers">Popovers</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="ui_progress_bars.html" title="Progress Bars" data-filter-tags="ui components progress bars">
 								<span class="nav-link-text" data-i18n="nav.ui_components_progress_bars">Progress Bars</span>
