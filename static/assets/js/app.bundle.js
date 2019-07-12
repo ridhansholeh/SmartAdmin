@@ -1215,12 +1215,12 @@ var initApp = (function(app) {
 		
 		/* Add app date to js-get-date */
 		if ( myapp_config.appDateHook.length ) {
-			var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-				day = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+			var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'],
+				day = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'],
 				now = new Date(),
 				formatted = day[now.getDay()] + ', ' +  
+							now.getDate() + ' ' +
 							months[now.getMonth()] + ' ' +  
-							now.getDate() + ', ' +
 							now.getFullYear();
 			myapp_config.appDateHook.text(formatted);				
 		}
