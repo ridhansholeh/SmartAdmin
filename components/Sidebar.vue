@@ -238,11 +238,11 @@
 								<span class="nav-link-text" data-i18n="nav.ui_components_toasts">Toasts</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="ui_tooltips.html" title="Tooltips" data-filter-tags="ui components tooltips">
+						<nuxt-link tag="li" :to="{ name: 'ui-tooltips' }">
+							<a title="Tooltips" data-filter-tags="ui components tooltips">
 								<span class="nav-link-text" data-i18n="nav.ui_components_tooltips">Tooltips</span>
 							</a>
-						</li>
+						</nuxt-link>
 					</ul>
 				</li>
 				<li>
