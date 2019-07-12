@@ -193,11 +193,11 @@
 								<span class="nav-link-text" data-i18n="nav.ui_components_navbars">Navbars</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="ui_panels.html" title="Panels" data-filter-tags="ui components panels">
+						<nuxt-link tag="li" :to="{ name: 'ui-panels' }">
+							<a title="Panels" data-filter-tags="ui components panels">
 								<span class="nav-link-text" data-i18n="nav.ui_components_panels">Panels</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="ui_pagination.html" title="Pagination" data-filter-tags="ui components pagination">
 								<span class="nav-link-text" data-i18n="nav.ui_components_pagination">Pagination</span>
