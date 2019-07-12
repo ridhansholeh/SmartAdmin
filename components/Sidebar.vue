@@ -218,11 +218,11 @@
 								<span class="nav-link-text" data-i18n="nav.ui_components_scrollspy">ScrollSpy</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="ui_side_panel.html" title="Side Panel" data-filter-tags="ui components side panel">
+						<nuxt-link tag="li" :to="{ name: 'ui-side_panel' }">
+							<a title="Side Panel" data-filter-tags="ui components side panel">
 								<span class="nav-link-text" data-i18n="nav.ui_components_side_panel">Side Panel</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="ui_spinners.html" title="Spinners" data-filter-tags="ui components spinners">
 								<span class="nav-link-text" data-i18n="nav.ui_components_spinners">Spinners</span>
