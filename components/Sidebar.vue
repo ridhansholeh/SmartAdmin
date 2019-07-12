@@ -208,11 +208,11 @@
 								<span class="nav-link-text" data-i18n="nav.ui_components_popovers">Popovers</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="ui_progress_bars.html" title="Progress Bars" data-filter-tags="ui components progress bars">
+						<nuxt-link tag="li" :to="{ name: 'ui-progress_bars' }">
+							<a title="Progress Bars" data-filter-tags="ui components progress bars">
 								<span class="nav-link-text" data-i18n="nav.ui_components_progress_bars">Progress Bars</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="ui_scrollspy.html" title="ScrollSpy" data-filter-tags="ui components scrollspy">
 								<span class="nav-link-text" data-i18n="nav.ui_components_scrollspy">ScrollSpy</span>
