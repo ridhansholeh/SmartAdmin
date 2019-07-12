@@ -223,11 +223,11 @@
 								<span class="nav-link-text" data-i18n="nav.ui_components_side_panel">Side Panel</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="ui_spinners.html" title="Spinners" data-filter-tags="ui components spinners">
+						<nuxt-link tag="li" :to="{ name: 'ui-spinners' }">
+							<a title="Spinners" data-filter-tags="ui components spinners">
 								<span class="nav-link-text" data-i18n="nav.ui_components_spinners">Spinners</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="ui_tabs_pills.html" title="Tabs & Pills" data-filter-tags="ui components tabs & pills">
 								<span class="nav-link-text" data-i18n="nav.ui_components_tabs_&_pills">Tabs & Pills</span>
