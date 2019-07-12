@@ -656,7 +656,7 @@
 		head: {
 			titleTemplate: 'Tabs & Pills | %s',
 			script: [
-				{ src: '/assets/js/ui_tabs_pills.js', type: 'text/javascript', body: true },
+				{ src: '/assets/js/pages/ui_tabs_pills.js', type: 'text/javascript', body: true },
 			]
 		}
 	}

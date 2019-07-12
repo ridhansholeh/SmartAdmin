@@ -381,7 +381,7 @@
 		head: {
 			titleTemplate: 'List Filter | %s',
 			script: [
-				{ src: '/assets/js/ui_list_filter.js', type: 'text/javascript', body: true },
+				{ src: '/assets/js/pages/ui_list_filter.js', type: 'text/javascript', body: true },
 			]
 		}
 	}

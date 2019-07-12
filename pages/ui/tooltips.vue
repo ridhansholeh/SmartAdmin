@@ -301,7 +301,7 @@
 		head: {
 			titleTemplate: 'Tooltips | %s',
 			script: [
-				{ src: '/assets/js/ui_tooltips.js', type: 'text/javascript', body: true },
+				{ src: '/assets/js/pages/ui_tooltips.js', type: 'text/javascript', body: true },
 			]
 		}
 	}

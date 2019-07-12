@@ -410,7 +410,7 @@
 		head: {
 			titleTemplate: 'Popovers | %s',
 			script: [
-				{ src: '/assets/js/ui_popovers.js', type: 'text/javascript', body: true },
+				{ src: '/assets/js/pages/ui_popovers.js', type: 'text/javascript', body: true },
 			]
 		}
 	}

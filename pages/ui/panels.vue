@@ -486,7 +486,7 @@
 		head: {
 			titleTemplate: 'Panels | %s',
 			script: [
-				{ src: '/assets/js/ui_panels.js', type: 'text/javascript', body: true },
+				{ src: '/assets/js/pages/ui_panels.js', type: 'text/javascript', body: true },
 			]
 		}
 	}

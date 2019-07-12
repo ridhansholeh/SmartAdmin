@@ -410,7 +410,7 @@
 		head: {
 			titleTemplate: 'Documentation | %s',
 			script: [
-				{ src: '/assets/js/app_docs.js', type: 'text/javascript', body: true },
+				{ src: '/assets/js/pages/app_docs.js', type: 'text/javascript', body: true },
 			]
 		}
 	}
