@@ -342,7 +342,7 @@
 						<span class="dl-ref bg-primary-500 hidden-nav-function-minify hidden-nav-function-top">2,500+</span>
 					</a>
 					<ul>
-						<li>
+						<li :class="{ 'active open': (routeSubParent(this.$route.name) === 'fontawesome') }">
 							<a href="javascript:void(0);" title="FontAwesome" data-filter-tags="font icons fontawesome">
 								<span class="nav-link-text" data-i18n="nav.font_icons_fontawesome">FontAwesome Pro</span>
 							</a>
@@ -352,11 +352,11 @@
 										<span class="nav-link-text" data-i18n="nav.font_icons_fontawesome_light">Light</span>
 									</a>
 								</nuxt-link>
-								<li>
-									<a href="icons_fontawesome_regular.html" title="Regular" data-filter-tags="font icons fontawesome regular">
+								<nuxt-link tag="li" :to="{ name: 'icons-fontawesome-regular' }">
+									<a title="Regular" data-filter-tags="font icons fontawesome regular">
 										<span class="nav-link-text" data-i18n="nav.font_icons_fontawesome_regular">Regular</span>
 									</a>
-								</li>
+								</nuxt-link>
 								<li>
 									<a href="icons_fontawesome_solid.html" title="Solid" data-filter-tags="font icons fontawesome solid">
 										<span class="nav-link-text" data-i18n="nav.font_icons_fontawesome_solid">Solid</span>
@@ -940,7 +940,12 @@
 				var str = route.split("-");
 				// console.log(str[0]);
 				return str[0];
-			}
+			},
+			routeSubParent: function (route) {
+				var str = route.split("-");
+				// console.log(str[0]);
+				return str[1];
+			},
 		}
 	}
 </script>
