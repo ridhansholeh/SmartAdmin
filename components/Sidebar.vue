@@ -286,11 +286,11 @@
 								<span class="nav-link-text" data-i18n="nav.utilities_helpers">Helpers</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="utilities_position.html" title="Position" data-filter-tags="utilities position">
+						<nuxt-link tag="li" :to="{ name: 'utilities-position' }">
+							<a title="Position" data-filter-tags="utilities position">
 								<span class="nav-link-text" data-i18n="nav.utilities_position">Position</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="utilities_responsive_grid.html" title="Responsive Grid" data-filter-tags="utilities responsive grid">
 								<span class="nav-link-text" data-i18n="nav.utilities_responsive_grid">Responsive Grid</span>
