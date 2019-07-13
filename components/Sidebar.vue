@@ -386,16 +386,16 @@
 								</nuxt-link>
 							</ul>
 						</li>
-						<li>
+						<li :class="{ 'active open': (routeSubParent(this.$route.name) === 'stack') }">
 							<a href="javascript:void(0);" title="Stack Icons" data-filter-tags="font icons stack icons">
 								<span class="nav-link-text" data-i18n="nav.font_icons_stack_icons">Stack Icons</span>
 							</a>
 							<ul>
-								<li>
-									<a href="icons_stack_showcase.html" title="Showcase" data-filter-tags="font icons stack icons showcase">
+								<nuxt-link tag="li" :to="{ name: 'icons-stack-showcase' }">
+									<a title="Showcase" data-filter-tags="font icons stack icons showcase">
 										<span class="nav-link-text" data-i18n="nav.font_icons_stack_icons_showcase">Showcase</span>
 									</a>
-								</li>
+								</nuxt-link>
 								<li>
 									<a href="icons_stack_generate.html?layers=3" title="Generate Stack" data-filter-tags="font icons stack icons generate stack">
 										<span class="nav-link-text" data-i18n="nav.font_icons_stack_icons_generate_stack">Generate Stack</span>
