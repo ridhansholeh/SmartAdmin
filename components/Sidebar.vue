@@ -296,11 +296,11 @@
 								<span class="nav-link-text" data-i18n="nav.utilities_responsive_grid">Responsive Grid</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="utilities_sizing.html" title="Sizing" data-filter-tags="utilities sizing">
+						<nuxt-link tag="li" :to="{ name: 'utilities-sizing' }">
+							<a title="Sizing" data-filter-tags="utilities sizing">
 								<span class="nav-link-text" data-i18n="nav.utilities_sizing">Sizing</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="utilities_spacing.html" title="Spacing" data-filter-tags="utilities spacing">
 								<span class="nav-link-text" data-i18n="nav.utilities_spacing">Spacing</span>
