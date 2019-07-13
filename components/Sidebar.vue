@@ -256,11 +256,11 @@
 								<span class="nav-link-text" data-i18n="nav.utilities_borders">Borders</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="utilities_clearfix.html" title="Clearfix" data-filter-tags="utilities clearfix">
+						<nuxt-link tag="li" :to="{ name: 'utilities-clearfix' }">
+							<a title="Clearfix" data-filter-tags="utilities clearfix">
 								<span class="nav-link-text" data-i18n="nav.utilities_clearfix">Clearfix</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="utilities_color_pallet.html" title="Color Pallet" data-filter-tags="utilities color pallet">
 								<span class="nav-link-text" data-i18n="nav.utilities_color_pallet">Color Pallet</span>
