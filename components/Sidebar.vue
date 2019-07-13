@@ -306,11 +306,11 @@
 								<span class="nav-link-text" data-i18n="nav.utilities_spacing">Spacing</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="utilities_typography.html" title="Typography" data-filter-tags="utilities typography fonts headings bold lead colors sizes link text states list styles truncate alignment">
+						<nuxt-link tag="li" :to="{ name: 'utilities-typography' }">
+							<a title="Typography" data-filter-tags="utilities typography fonts headings bold lead colors sizes link text states list styles truncate alignment">
 								<span class="nav-link-text" data-i18n="nav.utilities_typography">Typography</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="javascript:void(0);" title="Menu child" data-filter-tags="utilities menu child">
 								<span class="nav-link-text" data-i18n="nav.utilities_menu_child">Menu child</span>
