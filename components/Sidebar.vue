@@ -439,11 +439,11 @@
 								<span class="nav-link-text" data-i18n="nav.form_stuff_checkbox_&_radio">Checkbox & Radio</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="form_input_groups.html" title="Input Groups" data-filter-tags="form stuff input groups">
+						<nuxt-link tag="li" :to="{ name: 'form-input_groups' }">
+							<a title="Input Groups" data-filter-tags="form stuff input groups">
 								<span class="nav-link-text" data-i18n="nav.form_stuff_input_groups">Input Groups</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="form_validation.html" title="Validation" data-filter-tags="form stuff validation">
 								<span class="nav-link-text" data-i18n="nav.form_stuff_validation">Validation</span>
