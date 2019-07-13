@@ -369,16 +369,16 @@
 								</nuxt-link>
 							</ul>
 						</li>
-						<li>
+						<li :class="{ 'active open': (routeSubParent(this.$route.name) === 'nextgen') }">
 							<a href="javascript:void(0);" title="NextGen Icons" data-filter-tags="font icons nextgen icons">
 								<span class="nav-link-text" data-i18n="nav.font_icons_nextgen_icons">NextGen Icons</span>
 							</a>
 							<ul>
-								<li>
-									<a href="icons_nextgen_general.html" title="General" data-filter-tags="font icons nextgen icons general">
+								<nuxt-link tag="li" :to="{ name: 'icons-nextgen-general' }">
+									<a title="General" data-filter-tags="font icons nextgen icons general">
 										<span class="nav-link-text" data-i18n="nav.font_icons_nextgen_icons_general">General</span>
 									</a>
-								</li>
+								</nuxt-link>
 								<li>
 									<a href="icons_nextgen_base.html" title="Base" data-filter-tags="font icons nextgen icons base">
 										<span class="nav-link-text" data-i18n="nav.font_icons_nextgen_icons_base">Base</span>
