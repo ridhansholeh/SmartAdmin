@@ -301,11 +301,11 @@
 								<span class="nav-link-text" data-i18n="nav.utilities_sizing">Sizing</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="utilities_spacing.html" title="Spacing" data-filter-tags="utilities spacing">
+						<nuxt-link tag="li" :to="{ name: 'utilities-spacing' }">
+							<a title="Spacing" data-filter-tags="utilities spacing">
 								<span class="nav-link-text" data-i18n="nav.utilities_spacing">Spacing</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="utilities_typography.html" title="Typography" data-filter-tags="utilities typography fonts headings bold lead colors sizes link text states list styles truncate alignment">
 								<span class="nav-link-text" data-i18n="nav.utilities_typography">Typography</span>
