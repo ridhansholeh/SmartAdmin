@@ -416,11 +416,11 @@
 								<span class="nav-link-text" data-i18n="nav.tables_basic_tables">Basic Tables</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="tables_generate_style.html" title="Generate Table Style" data-filter-tags="tables generate table style">
+						<nuxt-link tag="li" :to="{ name: 'tables-generate_style' }">
+							<a title="Generate Table Style" data-filter-tags="tables generate table style">
 								<span class="nav-link-text" data-i18n="nav.tables_generate_table_style">Generate Table Style</span>
 							</a>
-						</li>
+						</nuxt-link>
 					</ul>
 				</li>
 				<li>
