@@ -357,11 +357,11 @@
 										<span class="nav-link-text" data-i18n="nav.font_icons_fontawesome_regular">Regular</span>
 									</a>
 								</nuxt-link>
-								<li>
-									<a href="icons_fontawesome_solid.html" title="Solid" data-filter-tags="font icons fontawesome solid">
+								<nuxt-link tag="li" :to="{ name: 'icons-fontawesome-solid' }">
+									<a title="Solid" data-filter-tags="font icons fontawesome solid">
 										<span class="nav-link-text" data-i18n="nav.font_icons_fontawesome_solid">Solid</span>
 									</a>
-								</li>
+								</nuxt-link>
 								<li>
 									<a href="icons_fontawesome_brand.html" title="Brand" data-filter-tags="font icons fontawesome brand">
 										<span class="nav-link-text" data-i18n="nav.font_icons_fontawesome_brand">Brand</span>
