@@ -444,11 +444,11 @@
 								<span class="nav-link-text" data-i18n="nav.form_stuff_input_groups">Input Groups</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="form_validation.html" title="Validation" data-filter-tags="form stuff validation">
+						<nuxt-link tag="li" :to="{ name: 'form-validation' }">
+							<a title="Validation" data-filter-tags="form stuff validation">
 								<span class="nav-link-text" data-i18n="nav.form_stuff_validation">Validation</span>
 							</a>
-						</li>
+						</nuxt-link>
 					</ul>
 				</li>
 				<li class="nav-title">Plugins & Addons</li>
