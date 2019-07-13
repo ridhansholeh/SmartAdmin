@@ -335,7 +335,7 @@
 						</li>
 					</ul>
 				</li>
-				<li>
+				<li :class="{ 'active open': (routeParent(this.$route.name) === 'icons') }">
 					<a href="#" title="Font Icons" data-filter-tags="font icons">
 						<i class="fal fa-map-marker-alt"></i>
 						<span class="nav-link-text" data-i18n="nav.font_icons">Font Icons</span>
@@ -347,11 +347,11 @@
 								<span class="nav-link-text" data-i18n="nav.font_icons_fontawesome">FontAwesome Pro</span>
 							</a>
 							<ul>
-								<li>
-									<a href="icons_fontawesome_light.html" title="Light" data-filter-tags="font icons fontawesome light">
+								<nuxt-link tag="li" :to="{ name: 'icons-fontawesome-light' }">
+									<a title="Light" data-filter-tags="font icons fontawesome light">
 										<span class="nav-link-text" data-i18n="nav.font_icons_fontawesome_light">Light</span>
 									</a>
-								</li>
+								</nuxt-link>
 								<li>
 									<a href="icons_fontawesome_regular.html" title="Regular" data-filter-tags="font icons fontawesome regular">
 										<span class="nav-link-text" data-i18n="nav.font_icons_fontawesome_regular">Regular</span>
