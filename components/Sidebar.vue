@@ -379,11 +379,11 @@
 										<span class="nav-link-text" data-i18n="nav.font_icons_nextgen_icons_general">General</span>
 									</a>
 								</nuxt-link>
-								<li>
-									<a href="icons_nextgen_base.html" title="Base" data-filter-tags="font icons nextgen icons base">
+								<nuxt-link tag="li" :to="{ name: 'icons-nextgen-nextbase' }">
+									<a title="Base" data-filter-tags="font icons nextgen icons base">
 										<span class="nav-link-text" data-i18n="nav.font_icons_nextgen_icons_base">Base</span>
 									</a>
-								</li>
+								</nuxt-link>
 							</ul>
 						</li>
 						<li>
