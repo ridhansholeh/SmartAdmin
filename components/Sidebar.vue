@@ -261,16 +261,16 @@
 								<span class="nav-link-text" data-i18n="nav.utilities_clearfix">Clearfix</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="utilities_color_pallet.html" title="Color Pallet" data-filter-tags="utilities color pallet">
+						<nuxt-link tag="li" :to="{ name: 'utilities-color_pallet' }">
+							<a title="Color Pallet" data-filter-tags="utilities color pallet">
 								<span class="nav-link-text" data-i18n="nav.utilities_color_pallet">Color Pallet</span>
 							</a>
-						</li>
-						<li>
-							<a href="utilities_display_property.html" title="Display Property" data-filter-tags="utilities display property">
+						</nuxt-link>
+						<nuxt-link tag="li" :to="{ name: 'utilities-display_property' }">
+							<a title="Display Property" data-filter-tags="utilities display property">
 								<span class="nav-link-text" data-i18n="nav.utilities_display_property">Display Property</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="utilities_fonts.html" title="Fonts" data-filter-tags="utilities fonts">
 								<span class="nav-link-text" data-i18n="nav.utilities_fonts">Fonts</span>
