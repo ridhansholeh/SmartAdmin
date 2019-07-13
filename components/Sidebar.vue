@@ -423,17 +423,17 @@
 						</nuxt-link>
 					</ul>
 				</li>
-				<li>
+				<li :class="{ 'active open': (routeParent(this.$route.name) === 'form') }">
 					<a href="#" title="Form Stuff" data-filter-tags="form stuff">
 						<i class="fal fa-edit"></i>
 						<span class="nav-link-text" data-i18n="nav.form_stuff">Form Stuff</span>
 					</a>
 					<ul>
-						<li>
-							<a href="form_basic_inputs.html" title="Basic Inputs" data-filter-tags="form stuff basic inputs">
+						<nuxt-link tag="li" :to="{ name: 'form-basic_inputs' }">
+							<a title="Basic Inputs" data-filter-tags="form stuff basic inputs">
 								<span class="nav-link-text" data-i18n="nav.form_stuff_basic_inputs">Basic Inputs</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="form_checkbox_radio.html" title="Checkbox & Radio" data-filter-tags="form stuff checkbox & radio">
 								<span class="nav-link-text" data-i18n="nav.form_stuff_checkbox_&_radio">Checkbox & Radio</span>
