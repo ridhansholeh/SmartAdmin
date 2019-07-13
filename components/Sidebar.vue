@@ -362,11 +362,11 @@
 										<span class="nav-link-text" data-i18n="nav.font_icons_fontawesome_solid">Solid</span>
 									</a>
 								</nuxt-link>
-								<li>
-									<a href="icons_fontawesome_brand.html" title="Brand" data-filter-tags="font icons fontawesome brand">
+								<nuxt-link tag="li" :to="{ name: 'icons-fontawesome-brand' }">
+									<a title="Brand" data-filter-tags="font icons fontawesome brand">
 										<span class="nav-link-text" data-i18n="nav.font_icons_fontawesome_brand">Brand</span>
 									</a>
-								</li>
+								</nuxt-link>
 							</ul>
 						</li>
 						<li>
