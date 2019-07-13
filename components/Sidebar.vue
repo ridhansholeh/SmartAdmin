@@ -405,17 +405,17 @@
 						</li>
 					</ul>
 				</li>
-				<li>
+				<li :class="{ 'active open': (routeParent(this.$route.name) === 'tables') }">
 					<a href="#" title="Tables" data-filter-tags="tables">
 						<i class="fal fa-th-list"></i>
 						<span class="nav-link-text" data-i18n="nav.tables">Tables</span>
 					</a>
 					<ul>
-						<li>
-							<a href="tables_basic.html" title="Basic Tables" data-filter-tags="tables basic tables">
+						<nuxt-link tag="li" :to="{ name: 'tables-basic' }">
+							<a title="Basic Tables" data-filter-tags="tables basic tables">
 								<span class="nav-link-text" data-i18n="nav.tables_basic_tables">Basic Tables</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="tables_generate_style.html" title="Generate Table Style" data-filter-tags="tables generate table style">
 								<span class="nav-link-text" data-i18n="nav.tables_generate_table_style">Generate Table Style</span>
