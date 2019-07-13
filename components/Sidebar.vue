@@ -396,11 +396,11 @@
 										<span class="nav-link-text" data-i18n="nav.font_icons_stack_icons_showcase">Showcase</span>
 									</a>
 								</nuxt-link>
-								<li>
-									<a href="icons_stack_generate.html?layers=3" title="Generate Stack" data-filter-tags="font icons stack icons generate stack">
+								<nuxt-link tag="li" :to="{ name: 'icons-stack-generate' }">
+									<a title="Generate Stack" data-filter-tags="font icons stack icons generate stack">
 										<span class="nav-link-text" data-i18n="nav.font_icons_stack_icons_generate_stack">Generate Stack</span>
 									</a>
-								</li>
+								</nuxt-link>
 							</ul>
 						</li>
 					</ul>
