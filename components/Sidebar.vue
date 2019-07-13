@@ -281,11 +281,11 @@
 								<span class="nav-link-text" data-i18n="nav.utilities_flexbox">Flexbox</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="utilities_helpers.html" title="Helpers" data-filter-tags="utilities helpers">
+						<nuxt-link tag="li" :to="{ name: 'utilities-helpers' }">
+							<a title="Helpers" data-filter-tags="utilities helpers">
 								<span class="nav-link-text" data-i18n="nav.utilities_helpers">Helpers</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="utilities_position.html" title="Position" data-filter-tags="utilities position">
 								<span class="nav-link-text" data-i18n="nav.utilities_position">Position</span>
