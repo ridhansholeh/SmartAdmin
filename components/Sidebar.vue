@@ -245,17 +245,17 @@
 						</nuxt-link>
 					</ul>
 				</li>
-				<li>
+				<li :class="{ 'active open': (routeParent(this.$route.name) === 'utilities') }">
 					<a href="#" title="Utilities" data-filter-tags="utilities">
 						<i class="fal fa-bolt"></i>
 						<span class="nav-link-text" data-i18n="nav.utilities">Utilities</span>
 					</a>
 					<ul>
-						<li>
-							<a href="utilities_borders.html" title="Borders" data-filter-tags="utilities borders">
+						<nuxt-link tag="li" :to="{ name: 'utilities-borders' }">
+							<a title="Borders" data-filter-tags="utilities borders">
 								<span class="nav-link-text" data-i18n="nav.utilities_borders">Borders</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="utilities_clearfix.html" title="Clearfix" data-filter-tags="utilities clearfix">
 								<span class="nav-link-text" data-i18n="nav.utilities_clearfix">Clearfix</span>
