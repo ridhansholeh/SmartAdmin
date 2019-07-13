@@ -276,11 +276,11 @@
 								<span class="nav-link-text" data-i18n="nav.utilities_fonts">Fonts</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="utilities_flexbox.html" title="Flexbox" data-filter-tags="utilities flexbox">
+						<nuxt-link tag="li" :to="{ name: 'utilities-flexbox' }">
+							<a title="Flexbox" data-filter-tags="utilities flexbox">
 								<span class="nav-link-text" data-i18n="nav.utilities_flexbox">Flexbox</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="utilities_helpers.html" title="Helpers" data-filter-tags="utilities helpers">
 								<span class="nav-link-text" data-i18n="nav.utilities_helpers">Helpers</span>
