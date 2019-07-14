@@ -463,12 +463,12 @@
 								<span class="nav-link-text" data-i18n="nav.plugins_plugins_faq">Plugins FAQ</span>
 							</a>
 						</nuxt-link>
-						<li>
+						<nuxt-link tag="li" :to="{ name: 'plugin-waves' }">
 							<a href="plugin_waves.html" title="Waves" data-filter-tags="plugins waves">
 								<span class="nav-link-text" data-i18n="nav.plugins_waves">Waves</span>
 								<span class="dl-ref label bg-primary-400 ml-2">9 KB</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="plugin_pacejs.html" title="PaceJS" data-filter-tags="plugins pacejs">
 								<span class="nav-link-text" data-i18n="nav.plugins_pacejs">PaceJS</span>
