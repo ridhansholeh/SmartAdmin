@@ -511,12 +511,12 @@
 								<span class="dl-ref label bg-primary-700 ml-2">10 KB</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="plugin_appcore.html" title="App.Core" data-filter-tags="plugins app.core">
+						<nuxt-link tag="li" :to="{ name: 'plugin-appcore' }">
+							<a title="App.Core" data-filter-tags="plugins app.core">
 								<span class="nav-link-text" data-i18n="nav.plugins_app.core">App.Core</span>
 								<span class="dl-ref label bg-success-700 ml-2">14 KB</span>
 							</a>
-						</li>
+						</nuxt-link>
 					</ul>
 				</li>
 				<li>
