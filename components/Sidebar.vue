@@ -487,12 +487,12 @@
 								<span class="dl-ref label bg-primary-600 ml-2">15 KB</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="plugin_slimscroll.html" title="Slimscroll" data-filter-tags="plugins slimscroll">
+						<nuxt-link tag="li" :to="{ name: 'plugin-slimscroll' }">
+							<a title="Slimscroll" data-filter-tags="plugins slimscroll">
 								<span class="nav-link-text" data-i18n="nav.plugins_slimscroll">Slimscroll</span>
 								<span class="dl-ref label bg-primary-700 ml-2">5 KB</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="plugin_throttle.html" title="Throttle" data-filter-tags="plugins throttle">
 								<span class="nav-link-text" data-i18n="nav.plugins_throttle">Throttle</span>
