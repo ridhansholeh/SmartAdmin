@@ -527,15 +527,15 @@
 					</a>
 					<ul>
 						<nuxt-link tag="li" :to="{ name: 'datatables-basic' }">
-							<a href="datatables_basic.html" title="Basic" data-filter-tags="datatables datagrid basic">
+							<a title="Basic" data-filter-tags="datatables datagrid basic">
 								<span class="nav-link-text" data-i18n="nav.datatables_basic">Basic</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="datatables_autofill.html" title="Autofill" data-filter-tags="datatables datagrid autofill">
+						<nuxt-link tag="li" :to="{ name: 'datatables-autofill' }">
+							<a title="Autofill" data-filter-tags="datatables datagrid autofill">
 								<span class="nav-link-text" data-i18n="nav.datatables_autofill">Autofill</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="datatables_buttons.html" title="Buttons" data-filter-tags="datatables datagrid buttons">
 								<span class="nav-link-text" data-i18n="nav.datatables_buttons">Buttons</span>
