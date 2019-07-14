@@ -452,17 +452,17 @@
 					</ul>
 				</li>
 				<li class="nav-title">Plugins & Addons</li>
-				<li>
+				<li :class="{ 'active open': (routeParent(this.$route.name) === 'plugin') }">
 					<a href="#" title="Plugins" data-filter-tags="plugins">
 						<i class="fal fa-shield-alt"></i>
 						<span class="nav-link-text" data-i18n="nav.plugins">Core Plugins</span>
 					</a>
 					<ul>
-						<li>
-							<a href="plugin_faq.html" title="Plugins FAQ" data-filter-tags="plugins plugins faq">
+						<nuxt-link tag="li" :to="{ name: 'plugin-faq' }">
+							<a title="Plugins FAQ" data-filter-tags="plugins plugins faq">
 								<span class="nav-link-text" data-i18n="nav.plugins_plugins_faq">Plugins FAQ</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="plugin_waves.html" title="Waves" data-filter-tags="plugins waves">
 								<span class="nav-link-text" data-i18n="nav.plugins_waves">Waves</span>
