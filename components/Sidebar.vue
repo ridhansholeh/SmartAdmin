@@ -475,12 +475,12 @@
 								<span class="dl-ref label bg-primary-500 ml-2">13 KB</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="plugin_smartpanels.html" title="SmartPanels" data-filter-tags="plugins smartpanels">
+						<nuxt-link tag="li" :to="{ name: 'plugin-smartpanels' }">
+							<a title="SmartPanels" data-filter-tags="plugins smartpanels">
 								<span class="nav-link-text" data-i18n="nav.plugins_smartpanels">SmartPanels</span>
 								<span class="dl-ref label bg-primary-600 ml-2">9 KB</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="plugin_bootbox.html" title="BootBox" data-filter-tags="plugins bootbox alert sound">
 								<span class="nav-link-text" data-i18n="nav.plugins_bootbox">BootBox</span>
