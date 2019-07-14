@@ -505,12 +505,12 @@
 								<span class="dl-ref label bg-primary-700 ml-2">2 KB</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="plugin_i18next.html" title="i18next" data-filter-tags="plugins i18next">
+						<nuxt-link tag="li" :to="{ name: 'plugin-i18next' }">
+							<a title="i18next" data-filter-tags="plugins i18next">
 								<span class="nav-link-text" data-i18n="nav.plugins_i18next">i18next</span>
 								<span class="dl-ref label bg-primary-700 ml-2">10 KB</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="plugin_appcore.html" title="App.Core" data-filter-tags="plugins app.core">
 								<span class="nav-link-text" data-i18n="nav.plugins_app.core">App.Core</span>
