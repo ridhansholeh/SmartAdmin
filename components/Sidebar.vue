@@ -469,12 +469,12 @@
 								<span class="dl-ref label bg-primary-400 ml-2">9 KB</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="plugin_pacejs.html" title="PaceJS" data-filter-tags="plugins pacejs">
+						<nuxt-link tag="li" :to="{ name: 'plugin-pacejs' }">
+							<a title="PaceJS" data-filter-tags="plugins pacejs">
 								<span class="nav-link-text" data-i18n="nav.plugins_pacejs">PaceJS</span>
 								<span class="dl-ref label bg-primary-500 ml-2">13 KB</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="plugin_smartpanels.html" title="SmartPanels" data-filter-tags="plugins smartpanels">
 								<span class="nav-link-text" data-i18n="nav.plugins_smartpanels">SmartPanels</span>
