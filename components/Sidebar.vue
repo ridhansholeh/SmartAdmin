@@ -493,12 +493,12 @@
 								<span class="dl-ref label bg-primary-700 ml-2">5 KB</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="plugin_throttle.html" title="Throttle" data-filter-tags="plugins throttle">
+						<nuxt-link tag="li" :to="{ name: 'plugin-throttle' }">
+							<a title="Throttle" data-filter-tags="plugins throttle">
 								<span class="nav-link-text" data-i18n="nav.plugins_throttle">Throttle</span>
 								<span class="dl-ref label bg-primary-700 ml-2">1 KB</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="plugin_navigation.html" title="Navigation" data-filter-tags="plugins navigation">
 								<span class="nav-link-text" data-i18n="nav.plugins_navigation">Navigation</span>
