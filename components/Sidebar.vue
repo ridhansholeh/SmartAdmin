@@ -519,18 +519,18 @@
 						</nuxt-link>
 					</ul>
 				</li>
-				<li>
+				<li :class="{ 'active open': (routeParent(this.$route.name) === 'datatables') }">
 					<a href="#" title="Datatables" data-filter-tags="datatables datagrid">
 						<i class="fal fa-table"></i>
 						<span class="nav-link-text" data-i18n="nav.datatables">Datatables</span>
 						<span class="dl-ref bg-primary-500 hidden-nav-function-minify hidden-nav-function-top">235 KB</span>
 					</a>
 					<ul>
-						<li>
+						<nuxt-link tag="li" :to="{ name: 'datatables-basic' }">
 							<a href="datatables_basic.html" title="Basic" data-filter-tags="datatables datagrid basic">
 								<span class="nav-link-text" data-i18n="nav.datatables_basic">Basic</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="datatables_autofill.html" title="Autofill" data-filter-tags="datatables datagrid autofill">
 								<span class="nav-link-text" data-i18n="nav.datatables_autofill">Autofill</span>
