@@ -481,12 +481,12 @@
 								<span class="dl-ref label bg-primary-600 ml-2">9 KB</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="plugin_bootbox.html" title="BootBox" data-filter-tags="plugins bootbox alert sound">
+						<nuxt-link tag="li" :to="{ name: 'plugin-bootbox' }">
+							<a title="BootBox" data-filter-tags="plugins bootbox alert sound">
 								<span class="nav-link-text" data-i18n="nav.plugins_bootbox">BootBox</span>
 								<span class="dl-ref label bg-primary-600 ml-2">15 KB</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="plugin_slimscroll.html" title="Slimscroll" data-filter-tags="plugins slimscroll">
 								<span class="nav-link-text" data-i18n="nav.plugins_slimscroll">Slimscroll</span>
