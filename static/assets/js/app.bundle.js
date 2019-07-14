@@ -633,7 +633,7 @@ var initApp = (function(app) {
 
 	/**
 	 * Load scripts using lazyload method 
-	 * usage: initApp.loadScript("js/my_lovely_script.js", myFunction);
+	 * usage: initApp.loadScript("/assets/js/my_lovely_script.js", myFunction);
 	 * @param  {[type]}   scriptName
 	 * @param  {Function} callback  
 	 * @return {[type]}             
@@ -727,7 +727,7 @@ var initApp = (function(app) {
 	app.factoryReset = function () {
 
 		//backdrop sound
-		initApp.playSound('media/sound', 'messagebox');
+		initApp.playSound('/assets/media/sound', 'messagebox');
 		//hide settings modal to bootstrap avoid modal bug
 		$('.js-modal-settings').modal('hide');
 
@@ -1489,7 +1489,7 @@ var initApp = (function(app) {
 
 						if (typeof bootbox  != 'undefined') {
 
-							initApp.playSound('media/sound', 'messagebox')
+							initApp.playSound('/assets/media/sound', 'messagebox')
 
 							bootbox.confirm({
 								title: "<i class='fal fa-times-circle text-danger mr-2'></i> Do you wish to delete panel <span class='fw-500'>&nbsp;'" +selectedPanel.children('.panel-hdr').children('h2').text().trim()+ "'&nbsp;</span>?",
@@ -1599,12 +1599,12 @@ var initApp = (function(app) {
 						if (!$.i18n) {
 						//jQuery.getScript('http://url/to/the/script');
 
-							initApp.loadScript("js/i18n/i18n.js", 
+							initApp.loadScript("/assets/js/i18n/i18n.js",
 
 								function activateLang () {
 									
 									$.i18n.init({
-										resGetPath: 'media/data/__lng__.json',
+										resGetPath: '/assets/media/data/__lng__.json',
 										load: 'unspecific',
 										fallbackLng: false,
 										lng: applang
@@ -1678,7 +1678,7 @@ var initApp = (function(app) {
 					 **/
 					case ( actiontype === 'playsound' ):
 
-						var path = $(this).attr('data-soundpath') || "media/sound/",
+						var path = $(this).attr('data-soundpath') || "/assets/media/sound/",
 							sound = $(this).attr('data-soundfile');
 
 						initApp.playSound(path,sound);
