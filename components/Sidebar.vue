@@ -556,11 +556,11 @@
 								<span class="nav-link-text" data-i18n="nav.datatables_columnfilter">ColumnFilter</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="datatables_fixedcolumns.html" title="FixedColumns" data-filter-tags="datatables datagrid fixedcolumns">
+						<nuxt-link tag="li" :to="{ name: 'datatables-fixedcolumns' }">
+							<a title="FixedColumns" data-filter-tags="datatables datagrid fixedcolumns">
 								<span class="nav-link-text" data-i18n="nav.datatables_fixedcolumns">FixedColumns</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="datatables_fixedheader.html" title="FixedHeader" data-filter-tags="datatables datagrid fixedheader">
 								<span class="nav-link-text" data-i18n="nav.datatables_fixedheader">FixedHeader</span>
