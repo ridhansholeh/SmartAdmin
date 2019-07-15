@@ -536,11 +536,11 @@
 								<span class="nav-link-text" data-i18n="nav.datatables_autofill">Autofill</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="datatables_buttons.html" title="Buttons" data-filter-tags="datatables datagrid buttons">
+						<nuxt-link tag="li" :to="{ name: 'datatables-buttons' }">
+							<a title="Buttons" data-filter-tags="datatables datagrid buttons">
 								<span class="nav-link-text" data-i18n="nav.datatables_buttons">Buttons</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="datatables_export.html" title="Export" data-filter-tags="datatables datagrid export tables pdf excel print csv">
 								<span class="nav-link-text" data-i18n="nav.datatables_export">Export</span>
