@@ -541,11 +541,11 @@
 								<span class="nav-link-text" data-i18n="nav.datatables_buttons">Buttons</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="datatables_export.html" title="Export" data-filter-tags="datatables datagrid export tables pdf excel print csv">
+						<nuxt-link tag="li" :to="{ name: 'datatables-export' }">
+							<a title="Export" data-filter-tags="datatables datagrid export tables pdf excel print csv">
 								<span class="nav-link-text" data-i18n="nav.datatables_export">Export</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="datatables_colreorder.html" title="ColReorder" data-filter-tags="datatables datagrid colreorder">
 								<span class="nav-link-text" data-i18n="nav.datatables_colreorder">ColReorder</span>
