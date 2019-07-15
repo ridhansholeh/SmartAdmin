@@ -551,11 +551,11 @@
 								<span class="nav-link-text" data-i18n="nav.datatables_colreorder">ColReorder</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="datatables_columnfilter.html" title="ColumnFilter" data-filter-tags="datatables datagrid columnfilter">
+						<nuxt-link tag="li" :to="{ name: 'datatables-columnfilter' }">
+							<a title="ColumnFilter" data-filter-tags="datatables datagrid columnfilter">
 								<span class="nav-link-text" data-i18n="nav.datatables_columnfilter">ColumnFilter</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="datatables_fixedcolumns.html" title="FixedColumns" data-filter-tags="datatables datagrid fixedcolumns">
 								<span class="nav-link-text" data-i18n="nav.datatables_fixedcolumns">FixedColumns</span>
