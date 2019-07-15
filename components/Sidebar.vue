@@ -571,11 +571,11 @@
 								<span class="nav-link-text" data-i18n="nav.datatables_keytable">KeyTable</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="datatables_responsive.html" title="Responsive" data-filter-tags="datatables datagrid responsive">
+						<nuxt-link tag="li" :to="{ name: 'datatables-responsive' }">
+							<a title="Responsive" data-filter-tags="datatables datagrid responsive">
 								<span class="nav-link-text" data-i18n="nav.datatables_responsive">Responsive</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="datatables_responsive_alt.html" title="Responsive Alt" data-filter-tags="datatables datagrid responsive alt">
 								<span class="nav-link-text" data-i18n="nav.datatables_responsive_alt">Responsive Alt</span>
