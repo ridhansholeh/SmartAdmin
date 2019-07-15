@@ -566,11 +566,11 @@
 								<span class="nav-link-text" data-i18n="nav.datatables_fixedheader">FixedHeader</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="datatables_keytable.html" title="KeyTable" data-filter-tags="datatables datagrid keytable">
+						<nuxt-link tag="li" :to="{ name: 'datatables-keytable' }">
+							<a title="KeyTable" data-filter-tags="datatables datagrid keytable">
 								<span class="nav-link-text" data-i18n="nav.datatables_keytable">KeyTable</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="datatables_responsive.html" title="Responsive" data-filter-tags="datatables datagrid responsive">
 								<span class="nav-link-text" data-i18n="nav.datatables_responsive">Responsive</span>
