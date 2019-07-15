@@ -601,11 +601,11 @@
 								<span class="nav-link-text" data-i18n="nav.datatables_select">Select</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="datatables_alteditor.html" title="AltEditor" data-filter-tags="datatables datagrid alteditor">
+						<nuxt-link tag="li" :to="{ name: 'datatables-alteditor' }">
+							<a title="AltEditor" data-filter-tags="datatables datagrid alteditor">
 								<span class="nav-link-text" data-i18n="nav.datatables_alteditor">AltEditor</span>
 							</a>
-						</li>
+						</nuxt-link>
 					</ul>
 				</li>
 				<li>
