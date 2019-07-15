@@ -546,11 +546,11 @@
 								<span class="nav-link-text" data-i18n="nav.datatables_export">Export</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="datatables_colreorder.html" title="ColReorder" data-filter-tags="datatables datagrid colreorder">
+						<nuxt-link tag="li" :to="{ name: 'datatables-colreorder' }">
+							<a title="ColReorder" data-filter-tags="datatables datagrid colreorder">
 								<span class="nav-link-text" data-i18n="nav.datatables_colreorder">ColReorder</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="datatables_columnfilter.html" title="ColumnFilter" data-filter-tags="datatables datagrid columnfilter">
 								<span class="nav-link-text" data-i18n="nav.datatables_columnfilter">ColumnFilter</span>
