@@ -596,11 +596,11 @@
 								<span class="nav-link-text" data-i18n="nav.datatables_scroller">Scroller</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="datatables_select.html" title="Select" data-filter-tags="datatables datagrid select">
+						<nuxt-link tag="li" :to="{ name: 'datatables-dtselect' }">
+							<a title="Select" data-filter-tags="datatables datagrid select">
 								<span class="nav-link-text" data-i18n="nav.datatables_select">Select</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="datatables_alteditor.html" title="AltEditor" data-filter-tags="datatables datagrid alteditor">
 								<span class="nav-link-text" data-i18n="nav.datatables_alteditor">AltEditor</span>
