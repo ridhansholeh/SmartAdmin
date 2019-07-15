@@ -586,11 +586,11 @@
 								<span class="nav-link-text" data-i18n="nav.datatables_rowgroup">RowGroup</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="datatables_rowreorder.html" title="RowReorder" data-filter-tags="datatables datagrid rowreorder">
+						<nuxt-link tag="li" :to="{ name: 'datatables-rowreorder' }">
+							<a title="RowReorder" data-filter-tags="datatables datagrid rowreorder">
 								<span class="nav-link-text" data-i18n="nav.datatables_rowreorder">RowReorder</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="datatables_scroller.html" title="Scroller" data-filter-tags="datatables datagrid scroller">
 								<span class="nav-link-text" data-i18n="nav.datatables_scroller">Scroller</span>
