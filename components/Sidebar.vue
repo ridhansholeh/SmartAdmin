@@ -581,11 +581,11 @@
 								<span class="nav-link-text" data-i18n="nav.datatables_responsive_alt">Responsive Alt</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="datatables_rowgroup.html" title="RowGroup" data-filter-tags="datatables datagrid rowgroup">
+						<nuxt-link tag="li" :to="{ name: 'datatables-rowgroup' }">
+							<a title="RowGroup" data-filter-tags="datatables datagrid rowgroup">
 								<span class="nav-link-text" data-i18n="nav.datatables_rowgroup">RowGroup</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="datatables_rowreorder.html" title="RowReorder" data-filter-tags="datatables datagrid rowreorder">
 								<span class="nav-link-text" data-i18n="nav.datatables_rowreorder">RowReorder</span>
