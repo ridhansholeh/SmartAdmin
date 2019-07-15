@@ -576,11 +576,11 @@
 								<span class="nav-link-text" data-i18n="nav.datatables_responsive">Responsive</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="datatables_responsive_alt.html" title="Responsive Alt" data-filter-tags="datatables datagrid responsive alt">
+						<nuxt-link tag="li" :to="{ name: 'datatables-responsive_alt' }">
+							<a title="Responsive Alt" data-filter-tags="datatables datagrid responsive alt">
 								<span class="nav-link-text" data-i18n="nav.datatables_responsive_alt">Responsive Alt</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="datatables_rowgroup.html" title="RowGroup" data-filter-tags="datatables datagrid rowgroup">
 								<span class="nav-link-text" data-i18n="nav.datatables_rowgroup">RowGroup</span>
