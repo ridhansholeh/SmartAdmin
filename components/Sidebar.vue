@@ -638,12 +638,12 @@
 								<span class="dl-ref label bg-primary-600 ml-2">197 KB</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="statistics_peity.html" title="Peity" data-filter-tags="statistics chart graphs peity small">
+						<nuxt-link tag="li" :to="{ name: 'statistics-peity' }">
+							<a title="Peity" data-filter-tags="statistics chart graphs peity small">
 								<span class="nav-link-text" data-i18n="nav.statistics_peity">Peity</span>
 								<span class="dl-ref label bg-primary-700 ml-2">4 KB</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="statistics_sparkline.html" title="Sparkline" data-filter-tags="statistics chart graphs sparkline small tiny">
 								<span class="nav-link-text" data-i18n="nav.statistics_sparkline">Sparkline</span>
