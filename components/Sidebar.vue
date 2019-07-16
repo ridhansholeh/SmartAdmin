@@ -644,12 +644,12 @@
 								<span class="dl-ref label bg-primary-700 ml-2">4 KB</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="statistics_sparkline.html" title="Sparkline" data-filter-tags="statistics chart graphs sparkline small tiny">
+						<nuxt-link tag="li" :to="{ name: 'statistics-sparkline' }">
+							<a title="Sparkline" data-filter-tags="statistics chart graphs sparkline small tiny">
 								<span class="nav-link-text" data-i18n="nav.statistics_sparkline">Sparkline</span>
 								<span class="dl-ref label bg-primary-700 ml-2">42 KB</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="statistics_easypiechart.html" title="Easy Pie Chart" data-filter-tags="statistics chart graphs easy pie chart">
 								<span class="nav-link-text" data-i18n="nav.statistics_easy_pie_chart">Easy Pie Chart</span>
