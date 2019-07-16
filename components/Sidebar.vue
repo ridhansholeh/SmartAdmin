@@ -656,12 +656,12 @@
 								<span class="dl-ref label bg-primary-700 ml-2">4 KB</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="statistics_dygraph.html" title="Dygraph" data-filter-tags="statistics chart graphs dygraph complex">
+						<nuxt-link tag="li" :to="{ name: 'statistics-dygraph' }">
+							<a title="Dygraph" data-filter-tags="statistics chart graphs dygraph complex">
 								<span class="nav-link-text" data-i18n="nav.statistics_dygraph">Dygraph</span>
 								<span class="dl-ref label bg-primary-700 ml-2">120 KB</span>
 							</a>
-						</li>
+						</nuxt-link>
 					</ul>
 				</li>
 				<li>
