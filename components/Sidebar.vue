@@ -632,12 +632,12 @@
 								<span class="dl-ref label bg-primary-600 ml-2">39 KB</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="statistics_c3.html" title="C3 Charts" data-filter-tags="statistics chart graphs c3 charts">
+						<nuxt-link tag="li" :to="{ name: 'statistics-c3' }">
+							<a title="C3 Charts" data-filter-tags="statistics chart graphs c3 charts">
 								<span class="nav-link-text" data-i18n="nav.statistics_c3_charts">C3 Charts</span>
 								<span class="dl-ref label bg-primary-600 ml-2">197 KB</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="statistics_peity.html" title="Peity" data-filter-tags="statistics chart graphs peity small">
 								<span class="nav-link-text" data-i18n="nav.statistics_peity">Peity</span>
