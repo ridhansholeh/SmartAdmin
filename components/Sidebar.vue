@@ -664,18 +664,18 @@
 						</nuxt-link>
 					</ul>
 				</li>
-				<li>
+				<li :class="{ 'active open': (routeParent(this.$route.name) === 'notifications') }">
 					<a href="#" title="Notifications" data-filter-tags="notifications">
 						<i class="fal fa-exclamation-circle"></i>
 						<span class="nav-link-text" data-i18n="nav.notifications">Notifications</span>
 					</a>
 					<ul>
-						<li>
-							<a href="notifications_sweetalert2.html" title="SweetAlert2" data-filter-tags="notifications sweetalert2">
+						<nuxt-link tag="li" :to="{ name: 'notifications-sweetalert2' }">
+							<a title="SweetAlert2" data-filter-tags="notifications sweetalert2">
 								<span class="nav-link-text" data-i18n="nav.notifications_sweetalert2">SweetAlert2</span>
 								<span class="dl-ref label bg-primary-500 ml-2">40 KB</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="notifications_toastr.html" title="Toastr" data-filter-tags="notifications toastr">
 								<span class="nav-link-text" data-i18n="nav.notifications_toastr">Toastr</span>
