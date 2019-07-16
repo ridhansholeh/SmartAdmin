@@ -676,12 +676,12 @@
 								<span class="dl-ref label bg-primary-500 ml-2">40 KB</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="notifications_toastr.html" title="Toastr" data-filter-tags="notifications toastr">
+						<nuxt-link tag="li" :to="{ name: 'notifications-toastr' }">
+							<a title="Toastr" data-filter-tags="notifications toastr">
 								<span class="nav-link-text" data-i18n="nav.notifications_toastr">Toastr</span>
 								<span class="dl-ref label bg-primary-600 ml-2">5 KB</span>
 							</a>
-						</li>
+						</nuxt-link>
 					</ul>
 				</li>
 				<li>
