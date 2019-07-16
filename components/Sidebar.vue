@@ -650,12 +650,12 @@
 								<span class="dl-ref label bg-primary-700 ml-2">42 KB</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="statistics_easypiechart.html" title="Easy Pie Chart" data-filter-tags="statistics chart graphs easy pie chart">
+						<nuxt-link tag="li" :to="{ name: 'statistics-easypiechart' }">
+							<a title="Easy Pie Chart" data-filter-tags="statistics chart graphs easy pie chart">
 								<span class="nav-link-text" data-i18n="nav.statistics_easy_pie_chart">Easy Pie Chart</span>
 								<span class="dl-ref label bg-primary-700 ml-2">4 KB</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="statistics_dygraph.html" title="Dygraph" data-filter-tags="statistics chart graphs dygraph complex">
 								<span class="nav-link-text" data-i18n="nav.statistics_dygraph">Dygraph</span>
