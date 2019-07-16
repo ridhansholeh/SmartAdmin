@@ -6,9 +6,9 @@
 		</div>
 		<div>
 			<ul class="list-table m-0">
-				<li><a href="intel_introduction.html" class="text-secondary fw-700">About</a></li>
-				<li class="pl-3"><a href="info_app_licensing.html" class="text-secondary fw-700">License</a></li>
-				<li class="pl-3"><a href="info_app_docs.html" class="text-secondary fw-700">Documentation</a></li>
+				<li><nuxt-link :to="{ name: 'application-intel_introduction' }" class="text-secondary fw-700">About</nuxt-link></li>
+				<li class="pl-3"><nuxt-link :to="{ name: 'info-app_licensing' }" class="text-secondary fw-700">License</nuxt-link></li>
+				<li class="pl-3"><nuxt-link :to="{ name: 'info-app_docs' }" class="text-secondary fw-700">Documentation</nuxt-link></li>
 				<li class="pl-3 fs-xl"><a href="https://wrapbootstrap.com/user/MyOrange" class="text-secondary" target="_blank"><i class="fal fa-question-circle" aria-hidden="true"></i></a></li>
 			</ul>
 		</div>
