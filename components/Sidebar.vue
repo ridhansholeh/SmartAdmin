@@ -620,12 +620,12 @@
 								<span class="dl-ref label bg-primary-500 ml-2">36 KB</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="statistics_chartjs.html" title="Chart.js" data-filter-tags="statistics chart graphs chart.js bar pie">
+						<nuxt-link tag="li" :to="{ name: 'statistics-chartjs' }">
+							<a title="Chart.js" data-filter-tags="statistics chart graphs chart.js bar pie">
 								<span class="nav-link-text" data-i18n="nav.statistics_chart.js">Chart.js</span>
 								<span class="dl-ref label bg-primary-500 ml-2">205 KB</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="statistics_chartist.html" title="Chartist.js" data-filter-tags="statistics chart graphs chartist.js">
 								<span class="nav-link-text" data-i18n="nav.statistics_chartist.js">Chartist.js</span>
