@@ -626,12 +626,12 @@
 								<span class="dl-ref label bg-primary-500 ml-2">205 KB</span>
 							</a>
 						</nuxt-link>
-						<li>
-							<a href="statistics_chartist.html" title="Chartist.js" data-filter-tags="statistics chart graphs chartist.js">
+						<nuxt-link tag="li" :to="{ name: 'statistics-chartist' }">
+							<a title="Chartist.js" data-filter-tags="statistics chart graphs chartist.js">
 								<span class="nav-link-text" data-i18n="nav.statistics_chartist.js">Chartist.js</span>
 								<span class="dl-ref label bg-primary-600 ml-2">39 KB</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="statistics_c3.html" title="C3 Charts" data-filter-tags="statistics chart graphs c3 charts">
 								<span class="nav-link-text" data-i18n="nav.statistics_c3_charts">C3 Charts</span>
