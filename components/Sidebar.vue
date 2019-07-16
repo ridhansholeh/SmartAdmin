@@ -608,18 +608,18 @@
 						</nuxt-link>
 					</ul>
 				</li>
-				<li>
+				<li :class="{ 'active open': (routeParent(this.$route.name) === 'statistics') }">
 					<a href="#" title="Statistics" data-filter-tags="statistics chart graphs">
 						<i class="fal fa-chart-pie"></i>
 						<span class="nav-link-text" data-i18n="nav.statistics">Statistics</span>
 					</a>
 					<ul>
-						<li>
+						<nuxt-link tag="li" :to="{ name: 'statistics-flot' }">
 							<a href="statistics_flot.html" title="Flot" data-filter-tags="statistics chart graphs flot bar pie">
 								<span class="nav-link-text" data-i18n="nav.statistics_flot">Flot</span>
 								<span class="dl-ref label bg-primary-500 ml-2">36 KB</span>
 							</a>
-						</li>
+						</nuxt-link>
 						<li>
 							<a href="statistics_chartjs.html" title="Chart.js" data-filter-tags="statistics chart graphs chart.js bar pie">
 								<span class="nav-link-text" data-i18n="nav.statistics_chart.js">Chart.js</span>
